@@ -15,6 +15,8 @@ Github UI before 2017, which uses the grey navbar
 #### v2.0 (~~in progress~~) lack of maintenance
 Github UI in 2017, which uses the black navbar
 
+请看master-fix分支
+
 ## Setup
 #### Install
 ```
