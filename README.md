@@ -136,6 +136,8 @@ social:
 # flagcounter
 flagcounter_href: # https://info.flagcounter.com/xxxx
 flagcounter_img_src: # https://s01.flagcounter.com/xxxx
+
+#更具体配置请参考 _config.yml.zhangyj131 文件
 ```
 
 #### Update
