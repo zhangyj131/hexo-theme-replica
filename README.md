@@ -18,11 +18,13 @@ Github UI in 2017, which uses the black navbar
 ## Setup
 #### Install
 ```
-git clone git@github.com:sabrinaluo/hexo-theme-replica.git themes/replica
+git clone git@github.com:zhangyj131/hexo-theme-replica.git themes/replica
+请切换到master-fix分支，master分支分类和tag不跳转，master-fix分支解决了该问题
 ```
 or
 ```
-git clone https://github.com/sabrinaluo/hexo-theme-replica.git themes/replica
+git clone https://github.com/zhangyj131/hexo-theme-replica.git themes/replica
+请切换到master-fix分支，master分支分类和tag不跳转，master-fix分支解决了该问题
 ```
 
 #### Configure
