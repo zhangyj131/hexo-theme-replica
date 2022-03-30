@@ -14,11 +14,12 @@ var article_edit = config.article_edit || {};
       <% }else{ %>
           <i class="fa fa-pencil-square-o"></i>
       <%  } %>
-      {{moment(<%= publishTimestamp %>).fromNow()}}
+      {{moment(<%= publishTimestamp %>).format('YYYY-MM-DD, h:mm:ss A')}}
     </span>
   </h3>
 
   <article class="post-content">
+    <%- toc(page.content, { class: 'post-toc', list_number: false }) %>
     <h1><%= page.title || 'Untitle' %></h1>
     <%- page.content %>
   </article>
