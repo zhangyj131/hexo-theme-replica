@@ -103,7 +103,10 @@ theme: replica
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:zhangyj131/zhangyj131.github.io.git
+  branch: master
+  token: xxx
 
 # Google Analytics
 ga: # GA code UA-XXXXXXXX-X
